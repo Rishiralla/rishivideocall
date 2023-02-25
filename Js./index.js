@@ -109,7 +109,7 @@ function websdkready() {
           console.log(res.result);
           meetingConfig.signature = res.result;
           meetingConfig.sdkKey = SDK_KEY;
-          var joinUrl = "https://rishivideochat.netlify.com/videocall/meeting.html?" + testTool.serialize(meetingConfig);
+          var joinUrl = "https://rishirallavideochat.netlify.com/videocall/meeting.html?" + testTool.serialize(meetingConfig);
           console.log(joinUrl);
           window.open(joinUrl, "_blank");
         },
@@ -141,7 +141,7 @@ function websdkready() {
         console.log(res.result);
         meetingConfig.signature = res.result;
         meetingConfig.sdkKey = SDK_KEY;
-        var joinUrl ="https://rishivideocall.netlify.com/videocall/meeting.html"
+        var joinUrl ="https://rishirallavideocall.netlify.com/videocall/meeting.html"
           testTool.getCurrentDomain() +
           "/meeting.html?" +
           testTool.serialize(meetingConfig);
